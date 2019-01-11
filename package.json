@@ -4,7 +4,7 @@
   "author": "Justin Beaudry <beaudry.justin@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "npx ts-node bin/validate"
+    "start": "npx ts-node validate.ts"
   },
   "publishConfig": {
     "access": "public"
