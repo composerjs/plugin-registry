@@ -1,0 +1,5 @@
+{
+  "name": "@composerjs/plugin-transform-confidence",
+  "repository": "https://github.com/composerjs/composer/tree/master/packages/plugin-transform-confidence",
+  "plugin-type": "transform"
+}

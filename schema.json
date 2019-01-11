@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/composerjs/composer-plugin-registry/master/schema.json",
+  "title": "PluginRegistryEntry",
+  "description": "Schema for plugin registry entries.",
+  "type": "object",
+  "oneOf": [{
+    "properties": {
+      "name": {
+        "$ref": "#/definitions/name"
+      },
+      "repository": {
+        "$ref": "#/definitions/repository"
+      },
+      "plugin-type": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "name",
+      "repository",
+      "plugin-type"
+    ]
+  }, {
+    "properties": {
+      "name": {
+        "$ref": "#/definitions/name"
+      },
+      "repository": {
+        "$ref": "#/definitions/repository"
+      },
+      "plugin-types": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "additionalItems": false
+      }
+    },
+    "required": [
+      "name",
+      "repository",
+      "plugin-types"
+    ]
+  }],
+  "additionalProperties": false,
+  "definitions": {
+    "name": {
+      "type": "string"
+    },
+    "repository": {
+      "type": "string"
+    }
+  },
+}

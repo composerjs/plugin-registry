@@ -1,0 +1,8 @@
+{
+  "name": "@composerjs/plugin-io-http",
+  "repository": "https://github.com/composerjs/composer/tree/master/packages/plugin-io-http",
+  "plugin-types": [
+    "read",
+    "write"
+  ]
+}

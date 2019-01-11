@@ -1,0 +1,8 @@
+{
+  "name": "@composerjs/plugin-io-s3",
+  "repository": "https://github.com/composerjs/composer/tree/master/packages/plugin-io-s3",
+  "plugin-types": [
+    "read",
+    "write"
+  ]
+}
