@@ -1,11 +1,18 @@
-Composer Plugin Registry
-========================
+<p align="center">
+    <img alt="composer" src="https://github.com/composerjs/composer/blob/master/logo.png" width="256">
+    <h1 align="center">Composer Plugin Registry</h1>
+</p>
 
-This repository is a registry for composer plugins.
-Pull Requests are welcome for any plugins.
+<p align="center" style="font-family: sans-serif; font-size: 16px; font-weight: 500;">
+    Repository as a registry for composer plugins
+</p>
 
-All plugins must be validated via `validator.ts` which can be run
-locally with `npm start`.
+<h2 align="center">Add New Plugins</h2>
+1. Create a pull request against `master` with the added plugin.
+2. Plugins are manually validated via `validator.ts` after pulling
+   the branch locally and running `npm start`.
 
-Composer plugins can be any npm module, however to use via the cli
-this repository was put in place as a remote store.
+<h2 align="center">TODO</h2>
+* Validator Bot
+* CI Plugin Unit Tests
+* Auto-merge bot
