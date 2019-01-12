@@ -7,12 +7,12 @@
     Repository as a registry for composer plugins
 </p>
 
-<h2 align="center">Add New Plugins</h2>
+## Add New Plugins
 1. Create a pull request against `master` with the added plugin.
 2. Plugins are manually validated via `validator.ts` after pulling
    the branch locally and running `npm start`.
 
-<h2 align="center">TODO</h2>
+## TODO
 * Validator Bot
 * CI Plugin Unit Tests
 * Auto-merge bot
